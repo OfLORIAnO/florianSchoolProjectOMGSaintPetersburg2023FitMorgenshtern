@@ -1,0 +1,21 @@
+@import '../../include.scss';
+.notFound {
+  border-radius: 15px;
+  padding: 15px;
+  background: $primary;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  div {
+    a {
+      color: blue;
+      margin: 0px 0px 0px 5px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+.wrapperr {
+  width: 100%;
+}

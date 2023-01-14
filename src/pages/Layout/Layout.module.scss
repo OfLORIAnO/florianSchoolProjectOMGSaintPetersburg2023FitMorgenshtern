@@ -1,0 +1,17 @@
+@import '../../include.scss';
+
+.layout {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+header {
+  flex: 0 0 50px;
+}
+footer {
+  flex: 0 1 30px;
+}
+.main {
+  padding: 15px 0;
+  flex: 1 0 auto;
+}

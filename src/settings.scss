@@ -1,0 +1,15 @@
+@import './vars.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: $dark-blue;
+}
+.wrapper {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 15px;
+  height: 100vh;
+  @media (max-width: 1400px) {
+    max-width: 870px;
+  }
+}
