@@ -15,7 +15,7 @@ export default function Layout() {
         <Path />
         <Outlet />
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

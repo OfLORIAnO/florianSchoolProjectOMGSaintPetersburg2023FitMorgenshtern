@@ -1,7 +1,13 @@
 @import '../../include.scss';
 
-.about{
-  border-radius: 15px;
-  background: $primary;
-  padding: 15px;
+.about {
+    border-radius: 15px;
+    background: $primary;
+    padding: 15px;
+    h1 {
+        line-height: 150%;
+    }
+    b {
+        font-weight: 500;
+    }
 }
