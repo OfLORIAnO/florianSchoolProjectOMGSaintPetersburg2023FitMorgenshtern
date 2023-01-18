@@ -47,7 +47,7 @@ export default function PatternItem({ item, i }) {
             </motion.div>
             <p>{item.description}</p>
             {item.oficialSite ? (
-                <a href={item.oficialSite} className={s.link}>
+                <a href={item.oficialSite} target={'_blank'} className={s.link}>
                     Официальный сайт
                 </a>
             ) : null}

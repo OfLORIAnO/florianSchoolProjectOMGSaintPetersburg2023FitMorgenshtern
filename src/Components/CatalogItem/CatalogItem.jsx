@@ -6,15 +6,12 @@ import style from './CatalogItem.module.scss';
 import Context from '../../Hooks/Contexs';
 
 export default function CatalogItem({ item }) {
-    const { pathFromCatalog, setPathFromCatalog, setPathFromCatalogRus } =
-        useContext(Context);
-    const [isHover, setIsHover] = useState(false);
+    const { setPathFromCatalog, setPathFromCatalogRus } = useContext(Context);
     let cardStyles = {
         background: `url('${item.imageUrl}') no-repeat center center`,
         backgroundSize: 'cover',
         transitionDuration: '.2s',
     };
-
     return (
         <Link
             to={'place'}
